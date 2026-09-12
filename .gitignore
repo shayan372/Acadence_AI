@@ -1,0 +1,6 @@
+acadence.db
+app_backup_final.py
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml

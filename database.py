@@ -3,7 +3,12 @@ import sqlite3
 import pandas as pd
 
 
-DB_NAME = "/content/drive/MyDrive/Acadence_AI/acadence.db"
+import os
+
+DB_NAME = os.path.join(
+    os.path.dirname(__file__),
+    "acadence.db"
+)
 
 def get_connection():
     """Create and return a database connection."""
